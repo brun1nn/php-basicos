@@ -22,7 +22,7 @@
         //Calcula a idade
         $idade = date("Y") - $ano;
         //Valida a idade
-        if ($idade < 17 ) {
+        if ($idade <= 17 ) {
             echo "Acesso negado. {$nome}!";
         }
         else {
