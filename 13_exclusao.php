@@ -46,7 +46,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "Senai@118";
-$dbname = "exercicios";
+$dbname = "exercicio";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -60,7 +60,7 @@ if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
     // Deleta o registro do cliente com o ID especificado
-    $sql = "DELETE FROM usuarios WHERE id = '$id'";
+    $sql = "DELETE FROM clientes WHERE id='$id'";
 
     if ($conn->query($sql) === TRUE) {
         echo "Cliente excluido com sucesso!";
