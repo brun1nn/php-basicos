@@ -36,10 +36,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         <select name="cor_fundo" required>
             <h2>Escolha uma cor de fundo:</h2>
-            <option value="lightyellow">Amarelo claro</option>
-            <option value="lightgreen">Verde claro</option>
+            <option value="yellow">Amarelo claro</option>
+            <option value="green">Verde claro</option>
             <option value="white">Branco</option>
-            <option value="black">Preto</ootion>
+            <option value="blue">Azul</ootion>
         </select>
 
         <button type="submit">Próximo</button>
